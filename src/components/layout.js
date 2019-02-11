@@ -20,17 +20,19 @@ const Layout = ({ children }) => (
       <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
 
-        <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+        <div className="flex flex-col flex-1  max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+          <div>
+            <img
+              src="https://i.imgur.com/xKU9IfH.jpg"
+              title="source: imgur.com"
+            />
+          </div>
           <h1>Hello.</h1>
           <div>
             <h1>My name is Hiep.</h1>
           </div>
           <div>
-            <span>
-              I am a software engineer.<br />My goal is to be an excellent
-              product engineer, create big things that make people life better.
-              I have skills in coding, especially in algorithms and complexity.
-            </span>
+            <span>I am a software engineer.</span>
           </div>
         </div>
 
